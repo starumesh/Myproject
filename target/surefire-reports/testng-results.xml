@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-23T17:02:22Z" name="Suite" finished-at="2021-09-23T17:02:49Z" duration-ms="26694">
+    <groups>
+      <group name="kite">
+        <method signature="UnitTest.newlist()[pri:0, instance:MySessions.MySession.UnitTest@3cfdd820]" name="newlist" class="MySessions.MySession.UnitTest"/>
+        <method signature="UnitTest.exstlist()[pri:0, instance:MySessions.MySession.UnitTest@3cfdd820]" name="exstlist" class="MySessions.MySession.UnitTest"/>
+      </group> <!-- kite -->
+    </groups>
+    <test started-at="2021-09-23T17:02:22Z" name="Test" finished-at="2021-09-23T17:02:49Z" duration-ms="26694">
+      <class name="MySessions.MySession.UnitTest">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:MySessions.MySession.UnitTest@3cfdd820]" started-at="2021-09-23T22:32:22Z" name="setupBrowser" finished-at="2021-09-23T22:32:38Z" duration-ms="15532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="newlist()[pri:0, instance:MySessions.MySession.UnitTest@3cfdd820]" started-at="2021-09-23T22:32:38Z" name="newlist" finished-at="2021-09-23T22:32:45Z" duration-ms="7017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newlist -->
+        <test-method signature="exstlist()[pri:0, instance:MySessions.MySession.UnitTest@3cfdd820]" started-at="2021-09-23T22:32:45Z" name="exstlist" finished-at="2021-09-23T22:32:45Z" depends-on-methods="MySessions.MySession.UnitTest.newlist" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exstlist -->
+        <test-method is-config="true" signature="endtest()[pri:0, instance:MySessions.MySession.UnitTest@3cfdd820]" started-at="2021-09-23T22:32:45Z" name="endtest" finished-at="2021-09-23T22:32:49Z" duration-ms="3480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+      </class> <!-- MySessions.MySession.UnitTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: MySessions.MySession.UnitTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 1.017 s <<< FAILURE! - in MySessions.MySession.UnitTest
+MySessions.MySession.UnitTest.setupBrowser  Time elapsed: 0.806 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Windows\webdriver\msedgedriver
+	at MySessions.MySession.UnitTest.setupBrowser(UnitTest.java:22)
+
